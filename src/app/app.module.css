@@ -1,0 +1,33 @@
+.app {
+  border: 2px solid blue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: min(80%, 800px);
+  margin: auto;
+}
+
+.app main {
+  flex: 1;
+}
+
+.app p {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: .5em 1em;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  box-sizing: border-box;
+}
